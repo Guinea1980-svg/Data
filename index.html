@@ -10,9 +10,12 @@
 <script>
 
 
-function Test(NUM) {
-	if (NUM == 5) {
-		
+function Redirect(Local, Link) {
+	if (Local === true) {
+		window.location.href = window.location.href + Link
+	}
+	elsif (Local === false) {
+		window.location.href = Link
 	}
 }
 
@@ -31,10 +34,8 @@ function Test(NUM) {
 <title>ZYME</title>
 </head>
 <body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-<button onclick= Test(5)>Hi
+<button onclick= Redirect(true, "/Website.html")>Downloads
+<h1>Welcome to ZYME a place for all my stuff that i have made</h1>
 
 </body>
 </html>
