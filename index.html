@@ -10,13 +10,8 @@
 <script>
 
 
-function Redirect(Local, Link) {
-	if (Local === true) {
-		window.location.href = "https://guinea1980-svg.github.io/ZYME/" + Link
-	}
-	if (Local === false) {
-		window.location.href = Link
-	}
+function Redirect(Link) {
+	window.location.href = Link
 }
 
 
@@ -35,7 +30,7 @@ function Redirect(Local, Link) {
 <link rel="icon" href="https://guinea1980-svg.github.io/ZYME/Blitz.PNG"></link>
 </head>
 <body><title>ZYME</title>
-<button onclick= Redirect(true, "/Website.html")>Downloads</button>
+<button onclick= Redirect("https://guinea1980-svg.github.io/ZYME/Website.html")>Downloads</button>
 <h1>Welcome to ZYME a place for all my stuff that i have made</h1>
 
 </body>
