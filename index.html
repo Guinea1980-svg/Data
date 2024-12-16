@@ -3,7 +3,7 @@
 <style>	
 
 .flex-container {
-  display: flex;
+  display: column
   flex-direction: row;
   justify-content: space-between;
 }
@@ -59,11 +59,15 @@ button:active {
   transform: scale(0.9);
 }
 
-div {
-	width:300px;
-	height:300px;
-  	margin:auto;
+.BG {
+	background-color: black;
 }
+
+.text2 {
+	color: white;
+	vertical-align: center;
+}
+
 
 
 
@@ -93,17 +97,19 @@ function Redirect(Link) {
 <title>ZYME</title>
 <link rel="icon" href="https://guinea1980-svg.github.io/ZYME/Blitz.PNG"></link>
 </head>
-<body>
-	<div class="flex-container" > 
-		<div class="flex-column" > 
-		<button onclick= Redirect("https://guinea1980-svg.github.io/ZYME")><span class="text">Home</span></button>
-		<button onclick= Redirect("https://guinea1980-svg.github.io/ZYME.Info.html")><span class="text">Info</span></button>
-		<button onclick= Redirect("https://guinea1980-svg.github.io/ZYME/Downloads.html")><span class="text">Downloads</span></button>
-		</div> 
-	</div> 
+<body class="BG">
+<div style="float: left;"> 
+	<button style="float: left;" onclick= Redirect("https://guinea1980-svg.github.io/ZYME")><span class="text">Home</span></button>
+	<button style="float: left;" onclick= Redirect("https://guinea1980-svg.github.io/ZYME.Info.html")><span class="text">Info</span></button>
+	<button style="float: left;" onclick= Redirect("https://guinea1980-svg.github.io/ZYME/Downloads.html")><span class="text">Downloads</span></button>
+</div> 
+</body>
+<body class="BG">
 
-	
-<h1>ZYME</h1>
+<div>
+	<h1 class="">ZYME</h1>
+	<h1 class="text2">ZYME</h1>
+</div>
 
 </body>
 </html>
