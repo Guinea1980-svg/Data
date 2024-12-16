@@ -45,7 +45,6 @@ function Test() {
         let rand = getRandomInt(13)
         let image = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcICn-uH-tV2relgTUHXGHJb8czwRjde4oBw&s' // Crash out Guy
         let img1 = imgs[i]
-        if (img1.class != "changed") {
             if (rand == 0) {
                 image = 'https://preview.redd.it/hey-guys-this-is-my-new-character-his-whole-deal-is-hes-a-v0-3onocd3am4od1.jpeg?width=640&crop=smart&auto=webp&s=da70c2fa77cce6a302c3c7d2469d403cbc56f998'; // Normal Chill Guy
             }
@@ -86,7 +85,6 @@ function Test() {
                 image = 'https://static.wikia.nocookie.net/surrealmemes/images/8/80/2f0.png/revision/latest?cb=20190823154313'; // Sigma gareth
             }
             img1.src = image
-            img1.class = "changed"
             // create a new HTML link element
             let link = document.createElement('link');
             link.rel = 'icon';
@@ -97,7 +95,6 @@ function Test() {
             if (existingLink) {
                 document.head.removeChild(existingLink);
             }
-        }
 
         // add the new favicon
         document.head.appendChild(link);
