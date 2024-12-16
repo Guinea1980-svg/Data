@@ -98,4 +98,8 @@
 	font: 50px Arial, sans-serif;
 }
 
-
+.text_white {
+	color: white;
+	vertical-align: center;
+	font: Arial, sans-serif;
+}
