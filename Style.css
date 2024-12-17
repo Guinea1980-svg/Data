@@ -97,7 +97,11 @@
 	vertical-align: center;
 	font: 50px Arial, sans-serif;
 }
-
+.text3 {
+	color: white;
+	vertical-align: center;
+	font: 25px Arial, sans-serif;
+}
 .text_white {
 	color: white;
 	vertical-align: center;
