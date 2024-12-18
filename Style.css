@@ -90,6 +90,7 @@
 
 .BG {
 	background-color: black;
+  	background-image: url("sample.jpg");
 }
 
 .text2 {
